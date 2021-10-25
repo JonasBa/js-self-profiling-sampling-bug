@@ -462,7 +462,7 @@ function hmrAcceptRun(bundle, id) {
 const output = document.getElementById("output");
 const start = document.getElementById("start");
 const supported = "Profiler" in window;
-const SAMPLING_INTERVAL_HZ = 1;
+const SAMPLING_INTERVAL_HZ = 5;
 const SAMPLING_BUFFER_SIZE = Number.MAX_SAFE_INTEGER;
 let profiler = null;
 /**
